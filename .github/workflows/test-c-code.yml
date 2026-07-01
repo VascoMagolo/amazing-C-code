@@ -1,0 +1,27 @@
+name: C Code Testing CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Compile isEven.c
+      run: gcc isEven.c -o isEven
+    # 3. Testa um número par (Ex: 4)
+    - name: Test Even Number (4)
+      run: echo "4" | ./isEven
+
+    - name: Test Odd Number (5)
+      run: echo "5" | ./isEven
+
+    - name: Test Missing Number (20)
+      run: echo "20" | ./isEven
