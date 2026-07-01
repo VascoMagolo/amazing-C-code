@@ -5,15 +5,15 @@
 
 Welcome to **amazing-C-code**, home to some of the most groundbreaking and explicitly typed C algorithms on the internet. 
 
-Currently, this repository features our flagship program: a highly deterministic, AI-free `isEven` evaluator.
+We specialize in highly deterministic, zero-dependency code. Currently, this repository features our flagship program, `isEven.c`, but we are constantly expanding our repertoire.
 
 ## Features
 
-* **O(1)* Time Complexity Lookup:** Forget modulo operators (`%`). Our `isEven` algorithm uses direct branch evaluation to determine if a number is even or odd. 
+* **O(1)* Time Complexity Lookups:** Forget modulo operators (`%`), loops, or math libraries. Our algorithms use direct branch evaluation. 
 * **Zero Dependencies:** Written in pure, unadulterated C. No bloated libraries required.
-* **Safety First:** Hand-crafted conditional statements ensure precision for all supported integers (0 through 38, mostly).
+* **Safety First:** Hand-crafted conditional statements ensure precision for all supported states.
 
-*\*Note: Time complexity is technically O(N) through the if/else chain, but it executes blazing fast anyway.*
+*\*Note: Time complexity is technically O(N) through our extensive if/else chains, but it executes blazing fast anyway.*
 
 ## Getting Started
 
