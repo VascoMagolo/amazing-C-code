@@ -78,7 +78,7 @@ bool isEven(int n){
     } else if (n==38){
         return true;
     }
-
+}
 int main(int argc, char *argv[]) {
     int number;
     printf("Tell number: ");
@@ -87,9 +87,9 @@ int main(int argc, char *argv[]) {
     
     if (isEven(number)) {
     
-        printf("Number: %d is Even!\n", test_num);
+        printf("Number: %d is Even!\n", number);
     } else {
-        printf("Number: %d is  Odd!\n", test_num);
+        printf("Number: %d is  Odd!\n", number);
     }
     
     return 0;
