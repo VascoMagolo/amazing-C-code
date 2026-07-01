@@ -26,6 +26,6 @@ You will need a C compiler (like GCC or Clang) installed on your system.
 Clone the repository and compile the source code:
 
 ```bash
-git clone [https://github.com/vascomagolo/amazing-C-code.git](https://github.com/vascomagolo/amazing-C-code.git)
+git clone https://github.com/vascomagolo/amazing-C-code.git
 cd amazing-C-code
 gcc isEven.c -o isEven
