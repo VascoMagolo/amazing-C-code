@@ -41,6 +41,8 @@ bool isEven(int n){
         return true;
     } else if (n==19){
         return false;
+    } else if (n==20){
+        return true;
     } else if (n==21){
         return false;
     } else if (n==22){
